@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BC1B01352C0E509800FC79CC /* BeReal_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01342C0E509800FC79CC /* BeReal_CloneApp.swift */; };
-		BC1B01372C0E509800FC79CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01362C0E509800FC79CC /* ContentView.swift */; };
 		BC1B01392C0E509900FC79CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1B01382C0E509900FC79CC /* Assets.xcassets */; };
 		BC1B013C2C0E509900FC79CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1B013B2C0E509900FC79CC /* Preview Assets.xcassets */; };
+		BC1B01432C0E51DD00FC79CC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01422C0E51DD00FC79CC /* FeedView.swift */; };
+		BC1B01472C0E539E00FC79CC /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01462C0E539E00FC79CC /* FeedCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC1B01312C0E509800FC79CC /* BeReal Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeReal Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1B01342C0E509800FC79CC /* BeReal_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeReal_CloneApp.swift; sourceTree = "<group>"; };
-		BC1B01362C0E509800FC79CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC1B01382C0E509900FC79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC1B013B2C0E509900FC79CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC1B01422C0E51DD00FC79CC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		BC1B01462C0E539E00FC79CC /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		BC1B01332C0E509800FC79CC /* BeReal Clone */ = {
 			isa = PBXGroup;
 			children = (
-				BC1B01342C0E509800FC79CC /* BeReal_CloneApp.swift */,
-				BC1B01362C0E509800FC79CC /* ContentView.swift */,
+				BC1B01452C0E51E900FC79CC /* Root */,
+				BC1B01442C0E51E100FC79CC /* Views */,
 				BC1B01382C0E509900FC79CC /* Assets.xcassets */,
 				BC1B013A2C0E509900FC79CC /* Preview Content */,
 			);
@@ -65,6 +67,31 @@
 				BC1B013B2C0E509900FC79CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC1B01442C0E51E100FC79CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B01482C0E5AAF00FC79CC /* Feed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC1B01452C0E51E900FC79CC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B01342C0E509800FC79CC /* BeReal_CloneApp.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BC1B01482C0E5AAF00FC79CC /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B01422C0E51DD00FC79CC /* FeedView.swift */,
+				BC1B01462C0E539E00FC79CC /* FeedCellView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1B01372C0E509800FC79CC /* ContentView.swift in Sources */,
+				BC1B01472C0E539E00FC79CC /* FeedCellView.swift in Sources */,
+				BC1B01432C0E51DD00FC79CC /* FeedView.swift in Sources */,
 				BC1B01352C0E509800FC79CC /* BeReal_CloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
