@@ -13,6 +13,9 @@
 		BC1B01432C0E51DD00FC79CC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01422C0E51DD00FC79CC /* FeedView.swift */; };
 		BC1B01472C0E539E00FC79CC /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B01462C0E539E00FC79CC /* FeedCellView.swift */; };
 		BC9EE74C2C0FB33E005A0C07 /* ThreeDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EE74B2C0FB33E005A0C07 /* ThreeDots.swift */; };
+		BC9EE74F2C0FB896005A0C07 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EE74E2C0FB896005A0C07 /* ProfileView.swift */; };
+		BC9EE7512C0FBB3C005A0C07 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EE7502C0FBB3C005A0C07 /* MemoryView.swift */; };
+		BC9EE7542C0FC453005A0C07 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EE7532C0FC453005A0C07 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		BC1B01422C0E51DD00FC79CC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		BC1B01462C0E539E00FC79CC /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
 		BC9EE74B2C0FB33E005A0C07 /* ThreeDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDots.swift; sourceTree = "<group>"; };
+		BC9EE74E2C0FB896005A0C07 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BC9EE7502C0FBB3C005A0C07 /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		BC9EE7532C0FC453005A0C07 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,8 @@
 		BC1B01442C0E51E100FC79CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC9EE7522C0FC431005A0C07 /* Settings */,
+				BC9EE74D2C0FB88B005A0C07 /* Profile */,
 				BC1B01482C0E5AAF00FC79CC /* Feed */,
 			);
 			path = Views;
@@ -103,6 +111,23 @@
 				BC9EE74B2C0FB33E005A0C07 /* ThreeDots.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BC9EE74D2C0FB88B005A0C07 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BC9EE74E2C0FB896005A0C07 /* ProfileView.swift */,
+				BC9EE7502C0FBB3C005A0C07 /* MemoryView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BC9EE7522C0FC431005A0C07 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BC9EE7532C0FC453005A0C07 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9EE7542C0FC453005A0C07 /* SettingsView.swift in Sources */,
 				BC9EE74C2C0FB33E005A0C07 /* ThreeDots.swift in Sources */,
 				BC1B01472C0E539E00FC79CC /* FeedCellView.swift in Sources */,
+				BC9EE74F2C0FB896005A0C07 /* ProfileView.swift in Sources */,
+				BC9EE7512C0FBB3C005A0C07 /* MemoryView.swift in Sources */,
 				BC1B01432C0E51DD00FC79CC /* FeedView.swift in Sources */,
 				BC1B01352C0E509800FC79CC /* BeReal_CloneApp.swift in Sources */,
 			);
