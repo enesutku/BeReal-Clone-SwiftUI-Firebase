@@ -96,17 +96,17 @@ struct ProfileView: View {
                                 }
                                 .padding(.top, -4)
                                 
-                                Text("View All My Memories")
+                                Text("View All")
                                     .foregroundStyle(.white)
                                     .fontWeight(.semibold)
                                     .font(.system(size: 13))
                                     .overlay {
                                         RoundedRectangle(cornerRadius: 8)
                                             .stroke(.gray, lineWidth: 2)
-                                            .frame(width: 175, height: 20)
+                                            .frame(width: 175, height: 30)
                                             .opacity(0.5)
                                     }
-                                    .padding(.top, 4)
+                                    .padding(.top, 15)
                             }
                             .padding(.top, -15)
                         }
