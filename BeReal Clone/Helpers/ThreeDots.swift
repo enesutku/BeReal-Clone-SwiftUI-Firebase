@@ -25,5 +25,5 @@ struct ThreeDots: View {
 }
 
 #Preview {
-    ThreeDots(size: 12, color: .black)
+    ThreeDots(size: 10, color: .black)
 }
