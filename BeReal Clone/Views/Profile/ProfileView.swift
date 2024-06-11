@@ -69,14 +69,15 @@ struct ProfileView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 16)
                                 .foregroundStyle(.white).opacity(0.07)
-                                .frame(height: 230)
+                                .frame(height: 280)
+            
                             VStack {
                                 HStack {
                                     Text("Last 14 days")
                                         .foregroundStyle(.white)
                                         .font(.system(size: 16))
-                                        .padding(.top, 8)
-                                    
+                                        .padding(.vertical)
+                
                                     Spacer()
                                 }
                                 .padding(.leading)
